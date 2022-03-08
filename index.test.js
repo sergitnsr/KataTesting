@@ -4,23 +4,23 @@
 //});
 
 import { divisiblePor3 } from "./index";
-import { divisiblePor5 } from "../scripts/FizzBuzz";
-import { divisiblePor3Y5 } from "../scripts/FizzBuzz";
+import { divisiblePor5 } from "./index";
+import { divisiblePor3Y5 } from "./index";
 
-describe('Testing FizzBuzz', () => {
-    test('should return Fizz', () => {
+describe('Test Fizz', () => {
+    test('devuelve Fizz', () => {
     expect(divisiblePor3()).toBe('Fizz');  
     });    
 })
 
-describe('Testing FizzBuzz', () => {
-    test('should return Buzz', () => {
+describe('Test Buzz', () => {
+    test('devuelve Buzz', () => {
     expect(divisiblePor5()).toBe('Buzz')  
     });   
 })
 
-describe('Testing FizzBuzz', () => {
-    test('should return FizzBuzz', () => {
+describe('Test FizzBuzz', () => {
+    test('devuelve FizzBuzz', () => {
     expect(divisiblePor3Y5()).toBe('FizzBuzz')  
     });   
 })
